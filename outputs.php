@@ -7,4 +7,8 @@
     //print
     print "\nHi there";
     print(35);
+
+    //print_r
+    print_r('single');
+    print_r([3,2,8]);
 ?>
