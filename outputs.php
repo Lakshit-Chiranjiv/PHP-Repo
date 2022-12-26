@@ -15,4 +15,9 @@
     //var_dump
     var_dump('Some string');
     var_dump([7,3,2]);
+
+    //var_export
+    var_export('Argentina');
+    var_export([3,29,9]);
+    var_export(42);
 ?>
