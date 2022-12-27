@@ -18,5 +18,8 @@
     //string and variable concatenation
     echo $name . ' is ' . $age . ' years old.';
 
+    //templating in double quotes
+    echo "$name is $age years old.";
+    echo "${name} is ${age} years old.";
 
 ?>
