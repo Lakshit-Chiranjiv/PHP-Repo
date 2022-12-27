@@ -15,5 +15,8 @@
     echo $name,$age,$is_best,$efficiency;
     var_dump($is_best);
     
+    //string and variable concatenation
+    echo $name . ' is ' . $age . ' years old.';
+
 
 ?>
