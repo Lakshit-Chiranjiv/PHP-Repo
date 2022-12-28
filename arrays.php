@@ -9,5 +9,7 @@
     print_r($names);
     var_dump($names);
 
+    //accessing array elements
+    echo $names[0];
 
 ?>
