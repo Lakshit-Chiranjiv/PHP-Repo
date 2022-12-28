@@ -33,4 +33,25 @@
 
     echo $pattern[2][1];
 
+    //multidimensional associative array
+    $people = [
+        [
+            'name' => 'Lakshit',
+            'roll' => 586
+        ],
+        [
+            'name' => 'John',
+            'roll' => 700
+        ],
+        [
+            'name' => 'bob',
+            'roll' => 663
+        ]
+    ];
+
+    print_r($people);
+
+    echo $people[0]['name'];
+
+
 ?>
