@@ -12,4 +12,8 @@
     //accessing array elements
     echo $names[0];
 
+    //updating array values
+    $nums[2] = 6;
+    print_r($nums);
+
 ?>
