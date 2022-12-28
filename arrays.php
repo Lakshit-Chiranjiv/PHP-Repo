@@ -16,4 +16,15 @@
     $nums[2] = 6;
     print_r($nums);
 
+    //associative arrays
+    $prices = [
+        'apple' => 6,
+        'orange' => 8,
+        'papaya' => 5
+    ];
+
+    print_r($prices);
+    
+    echo $prices['apple'];
+
 ?>
