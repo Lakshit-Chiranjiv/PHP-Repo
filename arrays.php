@@ -27,4 +27,10 @@
     
     echo $prices['apple'];
 
+    //multidimensional array
+    $pattern = [[5,7,3], [9,3,5], [8,8,2]];
+    print_r($pattern);
+
+    echo $pattern[2][1];
+
 ?>
