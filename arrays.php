@@ -53,5 +53,7 @@
 
     echo $people[0]['name'];
 
-
+    //json
+    $json_obj = json_encode($people);
+    echo $json_obj;
 ?>
